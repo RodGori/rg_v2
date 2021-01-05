@@ -1,0 +1,16 @@
+$brand-color:         #333F48;
+$brand-logo-color:    #43B02A;
+$brand-title-color:   #69B3E7;
+$brand-title-2-color: lighten($brand-title-color, 25%);
+$highlight:           lighten($brand-color, 35%);
+$content-color:       lighten(#333F48, 40%);
+$text-color:          #333F48;
+$menu-color:          rgba(#ffffff, 0.8);
+$link-color:          lighten(#43B02A, 2%);  
+$muted-text-color:    darken($brand-title-color, 10%);
+$font-family:         "EB Garamond", Garamond, "Times New Roman", serif;
+
+$on-bigphone:         375px;
+$on-tablet:           768px;
+$on-laptop:           960px;
+$on-desktop:          1200px;

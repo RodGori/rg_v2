@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejemplo Dashboard</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+
+        <header class="site-masthead">
+            {% include menu.html %}
+
+            <div class="logo-viz">
+                {% include logo.html %}
+            </div>
+
+        </header>
+
+        <div class="vis">
+            {{ content }}
+        </div>
+
+    </body>
+</html>

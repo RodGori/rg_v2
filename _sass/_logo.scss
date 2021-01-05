@@ -1,0 +1,35 @@
+.logo {
+  width: 100%;
+  fill: $brand-logo-color !important;
+}
+
+.logo-post,
+.logo-page,
+.logo-viz,
+.logo-code {
+  text-align: center;
+  fill: $brand-logo-color !important;
+}
+
+.svg {
+  height: auto;
+  width: 128px;
+}
+
+@media screen and (max-width: $on-tablet) {
+  .svg {
+    width: 64px;
+  }
+}
+
+@media screen and (min-width: $on-tablet) and (max-width: $on-laptop) {
+  .svg {
+    width: 104px;
+  }
+}
+
+@media screen and (min-width: $on-desktop) {
+  .svg {
+    width: 136px;
+  }
+}
